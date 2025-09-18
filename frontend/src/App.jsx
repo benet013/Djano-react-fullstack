@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 
+
 function Logout() {
   localStorage.clear()
   return <Navigate to='/login' />
