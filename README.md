@@ -28,7 +28,7 @@ The backend is configured with **CORS headers** so the React app can communicate
 ### Backend (Django)
 ```bash
 # clone the repo
-git clone <your-repo-url>
+git clone https://github.com/benet013/Fullstack-Note-App
 cd backend
 
 # create virtual environment
