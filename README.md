@@ -1,4 +1,4 @@
-# 📝 Notes App
+# Notes App
 
 A simple **Notes Application** built with **React (frontend)** and **Django REST Framework (backend)** using **JWT authentication**.  
 Users can create, view, and delete notes through a clean popup UI. Authentication is handled with JSON Web Tokens (JWT) for secure access to the API.  
@@ -6,24 +6,24 @@ The backend is configured with **CORS headers** so the React app can communicate
 
 ---
 
-## 🚀 Features
-- 🔐 JWT-based authentication (login required to access notes)
-- ➕ Create new notes via popup modal
-- 📖 View all notes in a responsive grid layout
-- ❌ Delete notes with one click
-- ⚡ Persistent backend using Django REST API
-- 🌍 Configured CORS headers to allow frontend requests
+## Features
+- JWT-based authentication (login required to access notes)
+- Create new notes via popup modal
+- View all notes in a responsive grid layout
+- Delete notes with one click
+- Persistent backend using Django REST API
+- Configured CORS headers to allow frontend requests
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend:** React (Vite), Axios, CSS, Unicons
 - **Backend:** Django, Django REST Framework, SimpleJWT, django-cors-headers
 - **API:** RESTful JSON endpoints at `/notes/`
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Backend (Django)
 ```bash
